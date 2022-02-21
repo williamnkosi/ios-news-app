@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1B31DA27C44729002B84BD /* willdev_ios_news_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B31D927C44729002B84BD /* willdev_ios_news_appApp.swift */; };
+		3D1B31DC27C44729002B84BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B31DB27C44729002B84BD /* ContentView.swift */; };
+		3D1B31DE27C4472A002B84BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B31DD27C4472A002B84BD /* Assets.xcassets */; };
+		3D1B31E127C4472A002B84BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B31E027C4472A002B84BD /* Preview Assets.xcassets */; };
+		3D1B31EB27C4472A002B84BD /* willdev_ios_news_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B31EA27C4472A002B84BD /* willdev_ios_news_appTests.swift */; };
+		3D1B31F527C4472A002B84BD /* willdev_ios_news_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B31F427C4472A002B84BD /* willdev_ios_news_appUITests.swift */; };
+		3D1B31F727C4472A002B84BD /* willdev_ios_news_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B31F627C4472A002B84BD /* willdev_ios_news_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D1B31E727C4472A002B84BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1B31CE27C44729002B84BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1B31D527C44729002B84BD;
+			remoteInfo = "willdev-ios-news-app";
+		};
+		3D1B31F127C4472A002B84BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1B31CE27C44729002B84BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1B31D527C44729002B84BD;
+			remoteInfo = "willdev-ios-news-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1B31D627C44729002B84BD /* willdev-ios-news-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "willdev-ios-news-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1B31D927C44729002B84BD /* willdev_ios_news_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willdev_ios_news_appApp.swift; sourceTree = "<group>"; };
+		3D1B31DB27C44729002B84BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D1B31DD27C4472A002B84BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1B31E027C4472A002B84BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D1B31E627C4472A002B84BD /* willdev-ios-news-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "willdev-ios-news-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1B31EA27C4472A002B84BD /* willdev_ios_news_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willdev_ios_news_appTests.swift; sourceTree = "<group>"; };
+		3D1B31F027C4472A002B84BD /* willdev-ios-news-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "willdev-ios-news-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1B31F427C4472A002B84BD /* willdev_ios_news_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willdev_ios_news_appUITests.swift; sourceTree = "<group>"; };
+		3D1B31F627C4472A002B84BD /* willdev_ios_news_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willdev_ios_news_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1B31D327C44729002B84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31E327C4472A002B84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31ED27C4472A002B84BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1B31CD27C44729002B84BD = {
+			isa = PBXGroup;
+			children = (
+				3D1B31D827C44729002B84BD /* willdev-ios-news-app */,
+				3D1B31E927C4472A002B84BD /* willdev-ios-news-appTests */,
+				3D1B31F327C4472A002B84BD /* willdev-ios-news-appUITests */,
+				3D1B31D727C44729002B84BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1B31D727C44729002B84BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B31D627C44729002B84BD /* willdev-ios-news-app.app */,
+				3D1B31E627C4472A002B84BD /* willdev-ios-news-appTests.xctest */,
+				3D1B31F027C4472A002B84BD /* willdev-ios-news-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1B31D827C44729002B84BD /* willdev-ios-news-app */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B31D927C44729002B84BD /* willdev_ios_news_appApp.swift */,
+				3D1B31DB27C44729002B84BD /* ContentView.swift */,
+				3D1B31DD27C4472A002B84BD /* Assets.xcassets */,
+				3D1B31DF27C4472A002B84BD /* Preview Content */,
+			);
+			path = "willdev-ios-news-app";
+			sourceTree = "<group>";
+		};
+		3D1B31DF27C4472A002B84BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B31E027C4472A002B84BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D1B31E927C4472A002B84BD /* willdev-ios-news-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B31EA27C4472A002B84BD /* willdev_ios_news_appTests.swift */,
+			);
+			path = "willdev-ios-news-appTests";
+			sourceTree = "<group>";
+		};
+		3D1B31F327C4472A002B84BD /* willdev-ios-news-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B31F427C4472A002B84BD /* willdev_ios_news_appUITests.swift */,
+				3D1B31F627C4472A002B84BD /* willdev_ios_news_appUITestsLaunchTests.swift */,
+			);
+			path = "willdev-ios-news-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1B31D527C44729002B84BD /* willdev-ios-news-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1B31FA27C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-app" */;
+			buildPhases = (
+				3D1B31D227C44729002B84BD /* Sources */,
+				3D1B31D327C44729002B84BD /* Frameworks */,
+				3D1B31D427C44729002B84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "willdev-ios-news-app";
+			productName = "willdev-ios-news-app";
+			productReference = 3D1B31D627C44729002B84BD /* willdev-ios-news-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D1B31E527C4472A002B84BD /* willdev-ios-news-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1B31FD27C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-appTests" */;
+			buildPhases = (
+				3D1B31E227C4472A002B84BD /* Sources */,
+				3D1B31E327C4472A002B84BD /* Frameworks */,
+				3D1B31E427C4472A002B84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1B31E827C4472A002B84BD /* PBXTargetDependency */,
+			);
+			name = "willdev-ios-news-appTests";
+			productName = "willdev-ios-news-appTests";
+			productReference = 3D1B31E627C4472A002B84BD /* willdev-ios-news-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D1B31EF27C4472A002B84BD /* willdev-ios-news-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1B320027C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-appUITests" */;
+			buildPhases = (
+				3D1B31EC27C4472A002B84BD /* Sources */,
+				3D1B31ED27C4472A002B84BD /* Frameworks */,
+				3D1B31EE27C4472A002B84BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1B31F227C4472A002B84BD /* PBXTargetDependency */,
+			);
+			name = "willdev-ios-news-appUITests";
+			productName = "willdev-ios-news-appUITests";
+			productReference = 3D1B31F027C4472A002B84BD /* willdev-ios-news-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1B31CE27C44729002B84BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3D1B31D527C44729002B84BD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3D1B31E527C4472A002B84BD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3D1B31D527C44729002B84BD;
+					};
+					3D1B31EF27C4472A002B84BD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3D1B31D527C44729002B84BD;
+					};
+				};
+			};
+			buildConfigurationList = 3D1B31D127C44729002B84BD /* Build configuration list for PBXProject "willdev-ios-news-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1B31CD27C44729002B84BD;
+			productRefGroup = 3D1B31D727C44729002B84BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1B31D527C44729002B84BD /* willdev-ios-news-app */,
+				3D1B31E527C4472A002B84BD /* willdev-ios-news-appTests */,
+				3D1B31EF27C4472A002B84BD /* willdev-ios-news-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1B31D427C44729002B84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B31E127C4472A002B84BD /* Preview Assets.xcassets in Resources */,
+				3D1B31DE27C4472A002B84BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31E427C4472A002B84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31EE27C4472A002B84BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1B31D227C44729002B84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B31DC27C44729002B84BD /* ContentView.swift in Sources */,
+				3D1B31DA27C44729002B84BD /* willdev_ios_news_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31E227C4472A002B84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B31EB27C4472A002B84BD /* willdev_ios_news_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B31EC27C4472A002B84BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B31F527C4472A002B84BD /* willdev_ios_news_appUITests.swift in Sources */,
+				3D1B31F727C4472A002B84BD /* willdev_ios_news_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D1B31E827C4472A002B84BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1B31D527C44729002B84BD /* willdev-ios-news-app */;
+			targetProxy = 3D1B31E727C4472A002B84BD /* PBXContainerItemProxy */;
+		};
+		3D1B31F227C4472A002B84BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1B31D527C44729002B84BD /* willdev-ios-news-app */;
+			targetProxy = 3D1B31F127C4472A002B84BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D1B31F827C4472A002B84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1B31F927C4472A002B84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1B31FB27C4472A002B84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"willdev-ios-news-app/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D1B31FC27C4472A002B84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"willdev-ios-news-app/Preview Content\"";
+				DEVELOPMENT_TEAM = UVLH876B42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D1B31FE27C4472A002B84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willdev-ios-news-app.app/willdev-ios-news-app";
+			};
+			name = Debug;
+		};
+		3D1B31FF27C4472A002B84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willdev-ios-news-app.app/willdev-ios-news-app";
+			};
+			name = Release;
+		};
+		3D1B320127C4472A002B84BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "willdev-ios-news-app";
+			};
+			name = Debug;
+		};
+		3D1B320227C4472A002B84BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVLH876B42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.willdev-ios-news-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "willdev-ios-news-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1B31D127C44729002B84BD /* Build configuration list for PBXProject "willdev-ios-news-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1B31F827C4472A002B84BD /* Debug */,
+				3D1B31F927C4472A002B84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1B31FA27C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1B31FB27C4472A002B84BD /* Debug */,
+				3D1B31FC27C4472A002B84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1B31FD27C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1B31FE27C4472A002B84BD /* Debug */,
+				3D1B31FF27C4472A002B84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1B320027C4472A002B84BD /* Build configuration list for PBXNativeTarget "willdev-ios-news-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1B320127C4472A002B84BD /* Debug */,
+				3D1B320227C4472A002B84BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1B31CE27C44729002B84BD /* Project object */;
+}
